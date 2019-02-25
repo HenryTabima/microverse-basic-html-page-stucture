@@ -1,8 +1,13 @@
 body {
+  font-family: sans-serif;
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-template-areas: "navbar navbar"
                        "main aside";
+                       
+}
+ul{
+    list-style-type: none;
 }
 
 #navbar {
@@ -18,4 +23,40 @@ body {
 
 .aside-section {
   grid-area: aside
+}
+
+.img-thumbnail{
+    width: 300px;
+    margin: 0;
+}
+.img-thumbnail img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.side-list-item{
+    display: flex;
+    margin-bottom: 15px;
+}
+.side-list-item-info{
+    
+}
+.side-list{
+    padding: 0;
+    margin: 0;
+}
+.side-list h4, .side-list p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.channel-name{
+    color: silver;
+    font-size: 12px;
+}
+.side-title{
+
+/* color: gray; */
+font-size: 15px;
 }
