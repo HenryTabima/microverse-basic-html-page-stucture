@@ -1,8 +1,9 @@
 body {
   font-family: sans-serif;
+  margin: 0;
   display: grid;
-  grid-template-columns: 1fr 300px;
-  grid-column-gap: 20px;
+  grid-template-columns: 1fr 33%;
+  grid-column-gap: 5px;
   grid-template-areas: "navbar navbar"
                        "main aside";
                        
@@ -16,6 +17,10 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 -30px 50px 10px black;
+
 }
 
 .navbar ul {
@@ -31,12 +36,16 @@ ul{
 }
 
 .main-section {
-  grid-area: main
+  grid-area: main;
+  padding: 0 10px;
+  
   
 }
 
 .aside-section {
-  grid-area: aside
+  grid-area: aside;
+  padding: 0 10px;
+  
 }
 
 .img-thumbnail{
@@ -95,16 +104,36 @@ font-size: 15px;
 .search input{
 width: 50%;
 height: 25px;
-border-radius: 5px;
-border-color: grey;
 padding-left: 15px;
+font-size: 15px;
 
 }
 .btn{
-border-radius: 5px;
-background-color: brown;
-color: white;
-height: 30px;
-padding: 0 10px;
-margin-left: 5px;
+
+background-color:whitesmoke;
+color: grey;
+height: 31px;
+padding: 0 20px;
+outline: none;
 }
+.youtube-icon{
+    color: red;
+    /* font-size: 1.5em; */
+    margin-right: 5px;
+}
+.left li{
+display: flex;
+align-items: center;
+font-size: 20px;
+}
+
+.right li{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    }
+    
+
+/* .icon{
+    font
+} */
