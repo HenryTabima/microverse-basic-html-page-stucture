@@ -88,13 +88,35 @@ font-size: 15px;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    color: #444;
 }
+
+.video-info-top .video-options {
+  height: 51px;
+}
+
+.video-info-top .video-options div {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.video-info-top .video-options .like,
+.video-info-top .video-options .unlike {
+  border-bottom: 3px solid #333
+}
+
+
 .video-description{
     padding: 0 10px;
-    margin-top: -5px;
+    margin-top: 15px;
     color: grey;
     font-size: 16px;
 }
+
 .search{
     display: flex;
     justify-content:center;
