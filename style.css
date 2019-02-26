@@ -159,3 +159,19 @@ font-size: 20px;
 /* .icon{
     font
 } */
+
+/* This is a trick  to make videos responsive */
+.video-wrapper{
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+}
+
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    
+}
