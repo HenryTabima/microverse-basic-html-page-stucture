@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Streaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <ul class="left">
+            <li><i class="fas fa-bars icon"></i></li>
+            <li><i class="fab fa-youtube youtube-icon"></i>Youtube</li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search for Video">
+            <button class="btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <ul class="right">
+            <li><i class="fas fa-video"></i></li>
+            <li><i class="fas fa-th"></i></li>
+            <li><i class="fas fa-comment"></i></li>
+            <li><i class="fas fa-bell"></i></li>
+        </ul>
+    </nav>
+    <main class="main-section">
+        <div class="media">
+            <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6aPMsyyTIq8" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+
+
+
+
+            </div>
+            <h3 class="video-title">This is the video Header</h3>
+            <div class="video-info-top">
+                <p class="video-views">54,000 Views</p>
+                <div class="video-options">
+                    <div class="like"><i class="fas fa-thumbs-up"></i> 3,6K</div>
+                    <div class="unlike"><i class="fas fa-thumbs-down"></i> 175</div>
+                    <div class="share"><i class="fas fa-share"></i> Share</div>
+                    <div class="save"><i class="fas fa-folder-plus"></i> Save</div>
+                    <div class="more-options"><i class="fas fa-ellipsis-h"></i></div>
+                </div>
+            </div>
+            <p class="video-description"> This is the video description and caption</p>
+        </div>
+    </main>
+
+    <aside class="aside-section">
+        <ul class="side-list">
+            <li class="side-list-item">
+                <figure class="img-thumbnail">
+                    <img class="image-thumbnail" src="img/aquaman.png" alt="Side Image">
+                </figure>
+
+                <div class="side-list-item-info">
+                    <h4 class="side-title">Aquaman</h4>
+                    <p class="channel-name">This is the description of the side video or image...</p>
+                </div>
+            </li>
+
+            <li class="side-list-item">
+                <figure class="img-thumbnail">
+                    <img class="image-thumbnail" src="img/aquaman.png" alt="Side Image">
+                </figure>
+                <div class="side-list-item-info">
+                    <h4 class="side-title">BatMan</h4>
+                    <p class="channel-name">This is the description of the side video or image...</p>
+                </div>
+            </li>
+
+            <li class="side-list-item">
+                <figure class="img-thumbnail">
+                    <img class="image-thumbnail" src="img/aquaman.png" alt="Side Image">
+                </figure>
+                <div class="side-list-item-info">
+                    <h4 class="side-title">SpiderMan</h4>
+                    <p class="channel-name">This is the description of the side video or image...</p>
+                </div>
+            </li>
+
+
+        </ul>
+    </aside>
+
+</body>
+
+</html>
